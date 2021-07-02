@@ -11,13 +11,13 @@ export class Login extends Component {
     handlechangeName = () =>{
         this.setState({
             name: 'ndinda'
-        })
+        },console.log('name changed'))
     }
     render() {
         return (
             <div>
             <h1>click to change the name</h1>
-               <button>{this.state.name}</button> 
+               <button onClick={this.handlechangeName}>{this.state.name}</button> 
             </div>
         )
     }
