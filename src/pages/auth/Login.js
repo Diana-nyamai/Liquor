@@ -11,7 +11,7 @@ export class Login extends Component {
     handlechangeName = () =>{
         this.setState({
             name: 'ndinda'
-        },console.log('name changed'))
+        },console.log('name changed when clicked'))
     }
     render() {
         return (
