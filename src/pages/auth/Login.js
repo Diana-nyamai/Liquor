@@ -7,5 +7,7 @@ const Login = () => {
         </div>
     )
 }
+setInterval(Login, 1000)
+
 
 export default Login
