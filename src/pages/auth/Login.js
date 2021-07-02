@@ -9,13 +9,11 @@ export class Login extends Component {
         }
         this.handleClick = this.handleClick.bind(this);
     }
-    handleClick(){
-        this.setState(prevState =>({
-            isToggleOn: !prevState.isToggleOn
-        })
-
-        )
-    }  
+   handleClick = () =>{
+       this.setState({
+           isToggleOn: false
+       })
+   }
 
 
     render() {
