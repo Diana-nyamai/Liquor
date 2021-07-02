@@ -10,8 +10,8 @@ export class Login extends Component {
         this.handleClick = this.handleClick.bind(this);
     }
    handleClick = () =>{
-      this.setState(prevState =>({
-          isToggleOn: !prevState.isToggleOn
+      this.setState(lastState =>({
+          isToggleOn: !lastState.isToggleOn
       }))
    }
 
