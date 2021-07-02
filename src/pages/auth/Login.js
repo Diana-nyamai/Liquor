@@ -12,7 +12,7 @@ export class Login extends Component {
     render() {
         return (
             <div>
-                
+                it is {this.state.date.toLocaleTimeString()}
             </div>
         )
     }
