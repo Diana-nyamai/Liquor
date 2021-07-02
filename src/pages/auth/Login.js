@@ -22,7 +22,7 @@ export class Login extends Component {
         return (
             <div>
             <h1>click to change the name</h1>
-               <button onClick={this.handleClick}>{this.isToggleOn? 'On':'off'}</button> 
+               <button onClick={this.handleClick}>{this.state.isToggleOn? 'On':'off'}</button> 
             </div>
         )
     }
