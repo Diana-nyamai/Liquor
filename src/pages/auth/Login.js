@@ -4,7 +4,7 @@ function Login(props) {
     return (
         <div>
             
-            it is {Date().toLocaleUpperCase()}
+            it is {Date().toString()}
         </div>
     )
 }
