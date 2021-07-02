@@ -8,11 +8,14 @@ export class Login extends Component {
              name: 'diana'
         }
     }
-    
+    handlechangeName = () =>{
+
+    }
     render() {
         return (
             <div>
-               my name is {this.state.name}
+            <h1></h1>
+               <button>{this.state.name}</button> 
             </div>
         )
     }
