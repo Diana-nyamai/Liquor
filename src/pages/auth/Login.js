@@ -1,12 +1,19 @@
 import React from 'react'
 
-function Login(props) {
-    return (
+function Login() {
+    return(
         <div>
-            
-            it is {Date().toString()}
-        </div>
+     it is {new Date().toLocaleTimeString()}
+     </div>
     )
+   
+  
+            
+        
 }
+
+setInterval(Login, 1000);
+
+
 
 export default Login
