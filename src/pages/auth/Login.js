@@ -9,12 +9,14 @@ export class Login extends Component {
         }
     }
     handlechangeName = () =>{
-
+        this.setState({
+            name: 'ndinda'
+        })
     }
     render() {
         return (
             <div>
-            <h1></h1>
+            <h1>click to change the name</h1>
                <button>{this.state.name}</button> 
             </div>
         )
