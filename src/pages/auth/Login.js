@@ -3,7 +3,7 @@ import React from 'react'
 function Login() {
     return(
         <div>
-     it is {new Date().toLocaleTimeString()}
+     it is {new Date().toLocaleDateString()}
      </div>
     )
    
