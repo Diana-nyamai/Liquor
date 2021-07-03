@@ -5,7 +5,8 @@ function Login(props) {
     const doubleName = names.map((name) => <li>{name}</li>)
     return (
         <div>
-            {doubleName}
+        <ol>{doubleName}</ol>
+            
         </div>
     )
 }
