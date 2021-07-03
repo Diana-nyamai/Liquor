@@ -6,12 +6,12 @@ export default {
      color:'blue'
    },
    {
-       name:'diana',
+       name:'ndinda',
        brand:'lv',
        color:'blue'
      },
      {
-       name:'diana',
+       name:'nyamai',
        brand:'lv',
        color:'blue'
      }
