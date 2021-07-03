@@ -4,11 +4,11 @@ import { Login } from './pages/auth';
 
 
 function App() {
-  const Numbers = [1,2,3,4]
+  const Names = ['diana','ndinda','nyamai']
   return (
     <div className="App">
      
-    <Login Numbers= {Numbers}/>
+    <Login Names= {Names}/>
     </div>
   );
 }
