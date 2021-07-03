@@ -1,13 +1,29 @@
 import './App.css';
 import Home from './pages/home/Home';
-import Data from './pages/home/Data';
+
 function App() {
   
-  const Datas = Data
+  const  Data = [
+    {
+ name:'diana',
+ brand:'lv',
+ color:'blue'
+},
+{
+   name:'ndinda',
+   brand:'lv',
+   color:'blue'
+ },
+ {
+   name:'nyamai',
+   brand:'lv',
+   color:'blue'
+ }
+]
   return (
     <div className="App">
      
-   <Home datas={Datas}/>
+   <Home Data={Data}/>
     </div>
   );
 }
