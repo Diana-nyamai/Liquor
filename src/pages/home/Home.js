@@ -1,13 +1,11 @@
 import React from 'react'
-import Data from './Data'
 
-function Home() {
+
+function Home(props) {
     
     return (
         <div>
-        {Data.Data.map((dat) => 
-    <li>{dat.name}</li>
-    )}
+       
         </div>
     )
 }
