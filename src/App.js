@@ -4,7 +4,7 @@ import { Login } from './pages/auth';
 
 
 function App() {
-  const Numbers = [2,2,3,4]
+  const Numbers = [1,2,3,4]
   return (
     <div className="App">
      
