@@ -1,6 +1,6 @@
 import './App.css';
 import { Login } from './pages/auth';
-import data from './pages/home/data';
+import Data from './pages/home/Data';
 
 
 
