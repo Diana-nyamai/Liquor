@@ -1,5 +1,5 @@
 export default {
-    Data = [
+    Data:[
         {
      name:'diana',
      brand:'lv',
