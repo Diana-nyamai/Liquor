@@ -14,6 +14,6 @@ export default {
        name:'diana',
        brand:'lv',
        color:'blue'
-     },
+     }
 ]
 }
