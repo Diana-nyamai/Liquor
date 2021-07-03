@@ -1,7 +1,5 @@
-import React from 'react'
-
-function Data() {
-    const  Data = [
+export default {
+    Data = [
         {
      name:'diana',
      brand:'lv',
@@ -18,11 +16,4 @@ function Data() {
        color:'blue'
      },
 ]
-    return (
-        <div>
-           {Data} 
-        </div>
-    )
 }
-
-export default Data
