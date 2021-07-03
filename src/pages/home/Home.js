@@ -6,7 +6,7 @@ function Home() {
     return (
         <div>
             {Data.Data.map((dat) => 
-                <li>{dat.name}</li>)}
+                {dat.name})}
         </div>
     )
 }
