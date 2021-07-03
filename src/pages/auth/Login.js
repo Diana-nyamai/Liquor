@@ -1,8 +1,8 @@
 import React from 'react'
 
 function Login(props) {
-    const names = props.Numbers
-    const doubleName = names.map((name) => <li>{name * 2}</li>)
+    const names = props.Names
+    const doubleName = names.map((name) => <li>{name}</li>)
     return (
         <div>
             {doubleName}
