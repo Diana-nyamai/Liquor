@@ -16,7 +16,7 @@ function Data() {
        name:'diana',
        brand:'lv',
        color:'blue'
-     },u
+     },
 ]
     return (
         <div>
