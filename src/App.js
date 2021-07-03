@@ -1,14 +1,14 @@
 import './App.css';
 import { Login } from './pages/auth';
 
-const
+const Numbers = [1,2,3,4]
 
 function App(props) {
   
   return (
     <div className="App">
      
-    <Login/>
+    <Login Numbers= {Numbers}/>
     </div>
   );
 }
