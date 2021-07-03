@@ -1,5 +1,6 @@
 import './App.css';
 import { Login } from './pages/auth';
+import data from './pages/home/data';
 
 
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className="App">
      
-    
+    <Data/>
     </div>
   );
 }
