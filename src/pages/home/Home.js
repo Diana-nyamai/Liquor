@@ -5,8 +5,8 @@ function Home() {
     
     return (
         <div>
-            {Data. Data.map((data) => 
-                <li>{data.name}</li>)}
+            {Data.Data.map((dat) => 
+                <li>{dat.name}</li>)}
         </div>
     )
 }
